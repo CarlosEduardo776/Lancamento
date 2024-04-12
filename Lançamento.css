@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cabeçalho {
+    background-color: rgb(46, 171, 221);
+    padding: 4em;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#cabeçalho li a {
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#cabeçalho li a:hover {
+  color: blue;
+  transition: 0.5s;
+}
+
+#opções li {
+    display: inline;
+    margin: 7px;
+    font-size: 20px;
+}
+
+#iphone {
+background-image: url(images/Prancheta\ 1.jpg);
+padding: 15rem;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+#iphone h2 {
+    font-size: 2rem;
+}
+
+#iphone button {
+    padding: 20px; 
+    border-radius: 50px;
+    width: 20vw; 
+    cursor: pointer;
+    border-color: rgb(19, 153, 108); 
+    margin: 30px; 
+}
+
+#iphone button a {
+    text-decoration: none;
+    color: #2007ff; 
+    font-size: 1.5em; 
+}
+
+#Texto1 {
+ background-color: rgb(69, 120, 161) ;
+ display: flex;
+ color: white;
+ padding: 10rem;
+ font-size: 24px;
+ justify-content: center;
+ text-align: center;
+}
+
+
+#Texto2 {
+    background-color: rgb(58, 129, 94) ;
+    display: flex;
+    color: white;
+    padding: 6rem;
+    font-size: 20px;
+    text-align: left;
+}
+
+#ródape {
+ background-color: black ;
+ display: flex;
+ color: white;
+ padding: 3rem;
+ font-size: 18px;
+ justify-content: center;
+ text-align: center
+}
