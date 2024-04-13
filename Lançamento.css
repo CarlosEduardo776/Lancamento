@@ -6,7 +6,7 @@
 }
 
 #cabeçalho {
-    background-color: rgb(46, 171, 221);
+    background-color: #352640;
     padding: 4em;
     text-align: center;
     justify-content: center;
@@ -21,7 +21,7 @@
 }
 
 #cabeçalho li a:hover {
-  color: blue;
+  color: rgb(61, 94, 184);
   transition: 0.5s;
 }
 
@@ -32,34 +32,37 @@
 }
 
 #iphone {
-background-image: url(images/Prancheta\ 1.jpg);
-padding: 15rem;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+    background-image: url(images/Prancheta\ 1.jpg);
+    padding: 12rem;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #iphone h2 {
-    font-size: 2rem;
+    font-size: 35px;
+}
+#iphone p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.678);
 }
 
-#iphone button {
+#iphone a button {
     padding: 20px; 
-    border-radius: 50px;
+    border-radius: 8px;
     width: 20vw; 
     cursor: pointer;
-    border-color: rgb(19, 153, 108); 
+    border-color: rgb(0, 0, 0); 
     margin: 30px; 
+    background-color: #4771a3;
+    font-size: 15px;
+    color: white;
 }
 
-#iphone button a {
-    text-decoration: none;
-    color: #2007ff; 
-    font-size: 1.5em; 
+#iphone a button:hover {
+ color: #8cecee;
 }
-
 #Texto1 {
- background-color: rgb(69, 120, 161) ;
+ background-color: #f00065;
  display: flex;
  color: white;
  padding: 10rem;
@@ -68,13 +71,24 @@ background-size: cover;
  text-align: center;
 }
 
+#Texto1 div {
+    padding: 1rem;
+}
+
+#Cores {
+    background-image: url(images/Prancheta\ 2.jpg);
+    padding: 16rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 
 #Texto2 {
-    background-color: rgb(58, 129, 94) ;
+    background-color: #92394b;
     display: flex;
     color: white;
     padding: 6rem;
-    font-size: 20px;
+    font-size: 25px;
     text-align: left;
 }
 
@@ -82,8 +96,37 @@ background-size: cover;
  background-color: black ;
  display: flex;
  color: white;
- padding: 3rem;
+ padding: 4rem;
  font-size: 18px;
- justify-content: center;
- text-align: center
+ justify-content: space-evenly;
+ text-align: center;
+ flex-wrap: wrap;
+}
+
+#final i {
+    background-color: #352640;
+    color: white;
+    font-size: 32px;
+    height: 20px;
+    width: 20px;
+    padding: 6px;
+    border-radius: 20px;
+}
+
+#final li {
+    display: inline;
+    margin: 7px;
+    font-size: 20px;
+}
+
+#final li a {
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#final li a:hover {
+  color: rgb(61, 94, 184);
+  transition: 0.5s;
 }
