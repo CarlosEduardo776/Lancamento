@@ -60,6 +60,7 @@
 
 #iphone a button:hover {
  color: #84abf1;
+ transition: 0.5s;
 }
 
 #Texto1 {
