@@ -21,7 +21,7 @@
 }
 
 #cabeçalho li a:hover {
-  color: rgb(61, 94, 184);
+  color: #84abf1;
   transition: 0.5s;
 }
 
@@ -53,14 +53,15 @@
     cursor: pointer;
     border-color: rgb(0, 0, 0); 
     margin: 30px; 
-    background-color: #4771a3;
-    font-size: 15px;
+    background-color: #f00065;
+    font-size: 18px;
     color: white;
 }
 
 #iphone a button:hover {
- color: #8cecee;
+ color: #84abf1;
 }
+
 #Texto1 {
  background-color: #f00065;
  display: flex;
@@ -116,7 +117,7 @@
 #final li {
     display: inline;
     margin: 7px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #final li a {
@@ -127,6 +128,6 @@
 }
 
 #final li a:hover {
-  color: rgb(61, 94, 184);
+  color: #84abf1;
   transition: 0.5s;
 }
