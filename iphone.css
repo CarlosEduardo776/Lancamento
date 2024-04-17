@@ -31,9 +31,20 @@
     font-size: 20px;
 }
 
+.Imagem1 {
+    background-image: url(images/Iphone\ Produto.jpg);
+    padding: 14.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.Imagem2 {
+    background-image: url(images/multi-colors.jpg);
+    padding: 14.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-
+}
 
 
 .ródape {
