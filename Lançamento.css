@@ -86,11 +86,11 @@
 }
 
 #Texto2 {
-    background-color: #92394b;
+    background-color: #f00065;
     display: flex;
     color: beige;
     padding: 6rem;
-    font-size: 25px;
+    font-size: 22px;
     text-align: left;
 }
 

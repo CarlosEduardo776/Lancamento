@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    list-style: none;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -11,6 +10,7 @@
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
+    list-style: none;
 }
 
 .cabeçalho li a {
@@ -33,7 +33,7 @@
 
 .Imagem1 {
     background-image: url(images/Iphone\ Produto.jpg);
-    padding: 14.5rem;
+    padding: 14rem;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -109,8 +109,7 @@
      color: beige ;
      padding: 100px;
      text-align: justify;
-     font-size: 18px
-
+     font-size: 18px;
 }
 
 .Especificação h2 {
@@ -129,7 +128,8 @@
     background-color: #d64883;
     padding: 100px;
     text-align: justify;
-    font-size: 18px
+    font-size: 18px;
+    
 
 }
 
@@ -141,6 +141,8 @@
 
 .Aviso li {
     color: rgba(245, 245, 220, 0.753);
+    list-style: none;
+    padding: 2px;
 }
 
 
@@ -155,6 +157,7 @@
     justify-content: space-evenly;
     text-align: center;
     flex-wrap: wrap;
+    list-style: none;
    }
    
    .final i {
